@@ -1,0 +1,28 @@
+{
+  "name": "shelby-file-uploader",
+  "version": "1.0.0",
+  "description": "A simple file uploader built on Shelby Protocol — decentralized hot storage on Aptos",
+  "main": "dist/index.js",
+  "type": "module",
+  "scripts": {
+    "build": "tsc",
+    "start": "node dist/index.js",
+    "dev": "tsx src/index.ts",
+    "upload": "tsx src/upload.ts",
+    "download": "tsx src/download.ts",
+    "list": "tsx src/list.ts"
+  },
+  "keywords": ["shelby", "aptos", "web3", "decentralized-storage", "blockchain"],
+  "author": "Raden Ayu Ananditha Jayawardana Gumay",
+  "license": "MIT",
+  "dependencies": {
+    "@aptos-labs/ts-sdk": "^5.0.0",
+    "@shelby-protocol/sdk": "^0.2.4",
+    "dotenv": "^16.4.5"
+  },
+  "devDependencies": {
+    "@types/node": "^22.0.0",
+    "tsx": "^4.19.1",
+    "typescript": "^5.5.4"
+  }
+}
