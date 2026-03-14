@@ -1,21 +1,21 @@
-# 🗄️ Shelby File Uploader
+# Shelby File Uploader
 
-A simple CLI tool to upload, download, and list files on [Shelby Protocol](https://shelby.xyz) — a verifiable decentralized hot storage network built by Aptos Labs × Jump Crypto.
+A simple CLI tool to upload, download, and list files on [Shelby Protocol](https://shelby.xyz) a verifiable decentralized hot storage network built by Aptos Labs × Jump Crypto.
 
 Built by **Raden Ayu Ananditha Jayawardana Gumay** as part of exploring the Shelby ecosystem.
 
 ---
 
-## ✨ Features
+## Features
 
-- 📤 Upload files to Shelby decentralized storage
-- 📥 Download files from Shelby by blob name
-- 📋 List all blobs stored on your account
-- 🔄 Round-trip demo (upload + download)
+- Upload files to Shelby decentralized storage
+- Download files from Shelby by blob name
+- List all blobs stored on your account
+- Round-trip demo (upload + download)
 
 ---
 
-## 🛠 Tech Stack
+## Tech Stack
 
 - **TypeScript** + **Node.js**
 - **Shelby Protocol SDK** (`@shelby-protocol/sdk`)
@@ -24,7 +24,7 @@ Built by **Raden Ayu Ananditha Jayawardana Gumay** as part of exploring the Shel
 
 ---
 
-## 📦 Installation
+## Installation
 
 ```bash
 # Clone repo
@@ -41,7 +41,7 @@ cp .env.example .env
 
 ---
 
-## ⚙️ Setup
+## Setup
 
 1. Install [Shelby CLI](https://docs.shelby.xyz/tools/cli):
 ```bash
@@ -61,7 +61,7 @@ shelby init
 
 ---
 
-## 🚀 Usage
+## Usage
 
 ```bash
 # Upload file
@@ -79,7 +79,7 @@ npm run dev
 
 ---
 
-## 📁 Project Structure
+## Project Structure
 
 ```
 shelby-file-uploader/
@@ -96,7 +96,7 @@ shelby-file-uploader/
 
 ---
 
-## 🌐 Network Info
+## Network Info
 
 | Network | RPC | Status |
 |---------|-----|--------|
@@ -105,7 +105,7 @@ shelby-file-uploader/
 
 ---
 
-## 📚 References
+## References
 
 - [Shelby Docs](https://docs.shelby.xyz)
 - [Shelby Quickstart](https://github.com/shelby/shelby-quickstart)
